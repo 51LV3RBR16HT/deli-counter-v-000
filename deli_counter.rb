@@ -11,3 +11,7 @@ def line(katz_deli)
     puts occupied_line
   end
 end
+
+def take_a_number
+
+end
