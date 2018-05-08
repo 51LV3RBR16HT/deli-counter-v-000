@@ -6,7 +6,8 @@ def line(number)
     puts "The line is currently empty."
   else
     line_method.each_with_index(0) do |names, index|
-    puts "The line is currently:"
+      line_method.push("#{index}. #{names}")
+    puts 
   end
 
 end
