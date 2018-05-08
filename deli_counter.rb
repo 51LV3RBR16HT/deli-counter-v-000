@@ -12,6 +12,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, names)
+def take_a_number(katz_deli)
+
   puts "Welcome, #{names}. You are number #{index} in line."
 end
