@@ -1,13 +1,13 @@
 katz_deli = []
 
-def line(number)
-  line_method = []
-  if number.length == 0
+def line(katz_deli)
+  if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    line_method.each_with_index(0) do |names, index|
-      line_method.push("#{index}. #{names}")
+     new_line= "The line is currently:"
+     katz_deli.each.with_index(1) do |name, index|
+      new_line << " #{index}. #{name}"
     end
-    puts "The line is currently: #{line_method.join(" ")}"
+    puts new_line
   end
 end
