@@ -10,5 +10,4 @@ def line(number)
     end
     puts "The line is currently: #{line_method.join(" ")}"
   end
-
 end
